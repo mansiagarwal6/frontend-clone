@@ -1,0 +1,12 @@
+.breaking-news {
+  background-color: aqua;
+}
+.warning {
+  color: darkgoldenrod;
+  background-color: darkslategray;
+}
+.highlight {
+  color: crimson;
+  font-weight: bold;
+  font-size: larger;
+}

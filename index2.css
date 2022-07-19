@@ -1,0 +1,150 @@
+* {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  padding: 30px;
+  font-size: larger;
+  padding: 10px;
+}
+.nav-links {
+  justify-content: center;
+  width: 50%;
+}
+.nav-links ul {
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+}
+.title {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.burger {
+  height: fit-content;
+  width: 50px;
+  cursor: pointer;
+}
+.burger div {
+  height: 5px;
+  width: 80%;
+  background-color: white;
+  margin-bottom: 5px;
+}
+.nav-links ul li:hover {
+  background-color: coral;
+}
+.nav-links ul li {
+  padding: 10px;
+}
+section {
+  background-color: rgb(75, 73, 73);
+  color: white;
+}
+.course-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.coursename {
+  width: 30%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted white;
+}
+.course {
+  padding: 40px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+.faculty {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.facultyinfo {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+}
+.fcaultyinfo_image {
+  object-fit: contain;
+  margin-right: 10px;
+}
+.facultyinfo_text a {
+  text-decoration: none;
+  color: red;
+}
+.readmore {
+  border: 1px solid red;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(179, 15, 15);
+}
+.readmore a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conference {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  object-fit: contain;
+}
+span {
+  color: red;
+}
+hr {
+  width: 80%;
+  background-color: black;
+  height: 10px;
+}
+.years {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+}
+.geu {
+  padding: 70px;
+}
+.footer {
+  padding: 50px;
+  background-color: rgb(214, 45, 45);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-icons {
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fab {
+  margin-right: 20px;
+}
+.bottom-tour {
+  margin-right: 20px;
+}
+.vertical-bar {
+  height: 100px;
+  width: 2px;
+  background-color: white;
+  margin-right: 20px;
+}
+.bottom-text {
+  text-align: center;
+}

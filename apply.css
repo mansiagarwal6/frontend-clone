@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+.aerial-image {
+  height: 500px;
+  background-image: url("/aerial-view.jpg");
+}
+.admission-form {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: -80px;
+  padding: 50px;
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+.form-1 {
+  width: 40%;
+  background-color: lightgray;
+  color: black;
+}
+.apply-fresh {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(218, 37, 37);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.form-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.form-label label {
+  margin-bottom: 20px;
+}
+.form-input input {
+  margin-bottom: 20px;
+}
+.form-input select {
+  margin-bottom: 20px;
+}
